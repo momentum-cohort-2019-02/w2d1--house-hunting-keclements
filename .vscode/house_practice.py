@@ -38,9 +38,15 @@ while current_saving < down_payment:
     interest = curren_savings * interest_rate / 12
     # add interest to current saving
     #current_saving - current_saving + interest
-    current_saving += interest #
+    current_saving += interest # same as current_saving
     # add the amount I'm sacing to my current saving
+    current_saving += amount_saved_each_month
+
+# add 1 to current month
+current_month += 1
+
 # Report how many months that took
+print("Number of months:", current_month)
 
 
 #each month (amount of savings)* rate  
