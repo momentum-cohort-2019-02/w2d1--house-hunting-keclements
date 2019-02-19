@@ -1,3 +1,4 @@
+# not my code
 annual_salary = int(input("Salary: "))
 portion_saved = float(input("Percentage to save: ")) 
 total_cost = int(input("Cost of the house: "))
