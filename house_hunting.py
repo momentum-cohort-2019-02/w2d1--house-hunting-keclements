@@ -7,9 +7,11 @@ r = 0.04
 savings_return = ((annual_salary / 12) * r)
 percentage_down = float(total_cost * 0.25)
 
+money_needed = total_cost - (current_savings + savings_return)
 
+print(money_needed)
 
-monthly_saving = (total_cost - ((annual_salary / 12) * r))
+monthly_saving = ("You need to save each month" , (total_cost - ((annual_salary / 12) * r)))
 
 print(savings_return)
 
